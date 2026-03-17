@@ -1,0 +1,51 @@
+import React from "react";
+
+const Hero = () => {
+	return (
+		<div
+			id="hero"
+			className="flex flex-col items-center gap-6 py-20 px-4 sm:px-12 lg:px-24 xl:px-40 text-center w-full overflow-hidden text-gray-700 dark:text-white">
+			{/* people trusted banner section */}
+			<div className="inline-flex items-center gap-2 border border-gray-300 p-1.5 pr-4 rounded-full">
+				<img
+					src="./src/assets/team-img.webp"
+					alt="group_image"
+					className="w-30 h-7"
+				/>
+				<p className="text-xs font-medium">Trusted by 11k+ people</p>
+			</div>
+
+			{/* page heading */}
+			<h1 className="text-4xl sm:text-5xl md:text-6xl xl:text-[84px] font-medium xl:leading-23.75 max-w-5xl z-5">
+				Transforming ideas into{" "}
+				<span className="bg-linear-to-r from-teal-500 to-cyan-400 bg-clip-text text-transparent">
+					digital
+				</span>{" "}
+				excellence
+			</h1>
+
+			{/* page description */}
+			<p className="text-sm sm:text-lg font-medium text-gray-500 dark:text-white/75 max-w-4/5 sm:max-w-lg pb-3 z-5">
+				Innovate your brand with creative excellence. Let's shape your
+				digital journey.
+			</p>
+
+			{/* hero img section */}
+			<div className="relative z-3">
+				<img
+					src="./src/assets/hero-img.png"
+					alt="hero_img"
+					className="w-full max-w-6xl rounded-3xl"
+				/>
+
+				<img
+					src="./src/assets/bg-gradient-1.png"
+					alt=""
+					className="absolute -top-40 -right-40 sm:-top-100 sm:-right-70 -z-5 blur-[2px] dark:blur-[7px]"
+				/>
+			</div>
+		</div>
+	);
+};
+
+export default Hero;

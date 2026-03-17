@@ -23,11 +23,11 @@ const Navbar = ({ theme, setTheme }) => {
 
 			{/* nav menu and sidebar section */}
 			<div
-				className={`text-gray-700/80 dark:text-white sm:text-sm ${!sideBarOpen ? "max-sm:w-0 overflow-hidden" : "max-sm:w-60 max-sm:pl-10 z-50"} max-sm:fixed top-0 bottom-0 right-0 max-sm:min-h-screen max-sm:h-full max-sm:flex-col max-sm:bg-primary dark:max-sm:bg-teal-600 max-sm:text-white max-sm:pt-20 flex sm:items-center gap-5 transition-all py-0.75`}>
+				className={`text-gray-700/80 dark:text-white sm:text-sm ${!sideBarOpen ? "max-md:w-0 overflow-hidden" : "max-md:w-60 max-md:pl-10 z-50"} max-md:fixed top-0 bottom-0 right-0 max-md:min-h-screen max-md:h-full max-md:flex-col max-md:bg-primary dark:max-md:bg-teal-600 max-md:text-white max-md:pt-20 flex md:items-center gap-5 transition-all py-0.75`}>
 				{/* sidebar close/cross icon/btn */}
 				<XIcon
 					size={28}
-					className="absolute right-4 top-4 sm:hidden"
+					className="absolute right-4 top-4 md:hidden"
 					onClick={() => setSideBarOpen(false)}
 				/>
 
@@ -66,14 +66,14 @@ const Navbar = ({ theme, setTheme }) => {
 				{/* sidebar open icon/btn */}
 				<TextAlignEndIcon
 					size={26}
-					className="sm:hidden text-black dark:text-white"
+					className="md:hidden text-black dark:text-white"
 					onClick={() => setSideBarOpen(true)}
 				/>
 
 				{/* connect btn */}
 				<a
 					href="#contact-us"
-					className="text-sm max-sm:hidden flex items-center gap-1 bg-primary hover:bg-linear-to-r hover:from-teal-600 hover:to-teal-400 text-white px-6 py-2 rounded-full cursor-pointer hover:scale-103 transition-colors duration-300">
+					className="text-sm max-md:hidden flex items-center gap-1 bg-primary hover:bg-linear-to-r hover:from-teal-600 hover:to-teal-400 text-white px-6 py-2 rounded-full cursor-pointer hover:scale-103 transition-colors duration-300">
 					Connect
 					<ArrowRightIcon size={18} />
 				</a>
