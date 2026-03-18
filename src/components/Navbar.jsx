@@ -73,7 +73,7 @@ const Navbar = ({ theme, setTheme }) => {
 				{/* connect btn */}
 				<a
 					href="#contact-us"
-					className="text-sm max-md:hidden flex items-center gap-1 bg-primary hover:bg-linear-to-r hover:from-teal-600 hover:to-teal-400 text-white px-6 py-2 rounded-full cursor-pointer hover:scale-103 transition-colors duration-300">
+					className="text-sm max-md:hidden flex items-center gap-1 bg-teal-500 hover:bg-linear-to-r hover:from-teal-600 hover:to-teal-400 text-white px-6 py-2 rounded-full cursor-pointer hover:scale-103 transition-colors duration-300">
 					Connect
 					<ArrowRightIcon size={18} />
 				</a>
