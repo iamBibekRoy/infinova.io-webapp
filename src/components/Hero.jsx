@@ -41,7 +41,7 @@ const Hero = () => {
 				<img
 					src="./src/assets/bg-gradient-1.png"
 					alt=""
-					className="absolute -top-40 -right-40 sm:-top-100 sm:-right-70 -z-5 blur-[2px] dark:blur-[7px]"
+					className="absolute -top-40 -right-40 sm:-top-100 sm:-right-70 -z-5 blur-[2px] dark:blur-[6px] dark:brightness-80"
 				/>
 			</div>
 		</div>
