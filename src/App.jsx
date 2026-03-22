@@ -15,7 +15,7 @@ const App = () => {
 	);
 
 	return (
-		<div className="dark:bg-black relative">
+		<div className="dark:bg-black relative selection:bg-teal-400 selection:text-black">
 			<Toaster />
 
 			<Navbar
