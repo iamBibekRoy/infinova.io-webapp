@@ -3,6 +3,7 @@ import Title from "./Title";
 import { Card, CardDescription, CardHeader, CardTitle } from "./ui/card";
 import { Badge } from "./ui/badge";
 import { Button } from "./ui/button";
+import { motion } from "motion/react";
 
 const OurWork = () => {
 	const [isOpen, setIsOpen] = useState(false);
@@ -41,7 +42,11 @@ const OurWork = () => {
 	];
 
 	return (
-		<div
+		<motion.div
+			initial="hidden"
+			whileInView="visible"
+			transition={{ staggerChildren: 0.2 }}
+			viewport={{ once: true }}
 			id="our-work"
 			className="flex flex-col items-center gap-7 px-4 sm:px-12 lg:px-24 xl:px-40 pt-30 text-gray-700 dark:text-white">
 			<Title
@@ -52,7 +57,11 @@ const OurWork = () => {
 			<div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-5xl">
 				{(isOpen ? workData : workData.slice(0, 3)).map(
 					(work, index) => (
-						<Card
+						<motion.Card
+							initial={{ opacity: 0, y: 30 }}
+							whileInView={{ opacity: 1, y: 0 }}
+							transition={{ duration: 0.5, delay: index * 0.2 }}
+							viewport={{ once: true }}
 							key={index}
 							className="relative mx-auto w-full max-w-sm pt-0 hover:scale-102 duration-500 transition-all cursor-pointer ring-0 bg-transparent">
 							<div className="absolute inset-0 aspect-3/2 " />
@@ -69,7 +78,7 @@ const OurWork = () => {
 									{work.desc}
 								</CardDescription>
 							</CardHeader>
-						</Card>
+						</motion.Card>
 					),
 				)}
 			</div>
@@ -79,7 +88,7 @@ const OurWork = () => {
 				onClick={() => setIsOpen(!isOpen)}>
 				{isOpen ? "Show Less" : "Show More"}
 			</Button>
-		</div>
+		</motion.div>
 	);
 };
 

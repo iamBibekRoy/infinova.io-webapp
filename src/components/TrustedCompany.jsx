@@ -1,11 +1,29 @@
 import React from "react";
+import { motion } from "motion/react";
 
 const TrustedCompany = () => {
 	return (
-		<div className="flex flex-col items-center px-4 sm:px-12 lg:px-24 xl:px-40 gap-10 text-gray-700 dark:text-white/80">
-			<h3 className="font-semibold z-10">Trusted by Leading Companies</h3>
+		<motion.div
+			initial={{ opacity: 0, y: 30 }}
+			whileInView={{ opacity: 1, y: 0 }}
+			transition={{ duration: 0.6 }}
+			viewport={{ once: true }}
+			className="flex flex-col items-center px-4 sm:px-12 lg:px-24 xl:px-40 gap-10 text-gray-700 dark:text-white/80">
+			<motion.h3
+				initial={{ opacity: 0, y: 20 }}
+				whileInView={{ opacity: 1, y: 0 }}
+				transition={{ duration: 0.5 }}
+				viewport={{ once: true }}
+				className="font-semibold z-10">
+				Trusted by Leading Companies
+			</motion.h3>
 
-			<div className=" flex items-center justify-center flex-wrap gap-10 m-4 z-10">
+			<motion.div
+				initial="hidden"
+				whileInView="visible"
+				transition={{ staggerChildren: 0.1 }}
+				viewport={{ once: true }}
+				className=" flex items-center justify-center flex-wrap gap-10 m-4 z-10">
 				<Image
 					src="./src/assets/microsoft_logo.png"
 					alt="microsoft_logo"
@@ -30,13 +48,18 @@ const TrustedCompany = () => {
 					src="./src/assets/google_logo.svg"
 					alt="google_logo"
 				/>
-			</div>
-		</div>
+			</motion.div>
+		</motion.div>
 	);
 };
 
 const Image = ({ src, alt }) => (
-	<img
+	<motion.img
+		variants={{
+			hidden: { opacity: 0, y: 10 },
+			visible: { opacity: 1, y: 0 },
+		}}
+		transition={{ duration: 0.4 }}
 		src={src}
 		alt={alt}
 		className="max-h-5 sm:max-h-6 dark:drop-shadow-xl"
