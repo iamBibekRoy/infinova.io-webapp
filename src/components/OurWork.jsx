@@ -69,7 +69,7 @@ const OurWork = () => {
 							<img
 								src={work.image}
 								alt="Event cover"
-								className="relative aspect-3/2 w-full object-cover rounded-xl"
+								className="relative aspect-3/2 w-full object-cover rounded-xl mb-2"
 							/>
 							<CardHeader>
 								<Badge variant="secondary">{work.badge}</Badge>
