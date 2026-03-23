@@ -21,8 +21,8 @@ const Footer = ({ theme }) => {
 					<img
 						src={
 							theme === "dark" ?
-								"./images/infinova-logo-dark.png"
-							:	"./images/infinova-logo.png"
+								"./images/infinova-logo-dark.webp"
+							:	"./images/infinova-logo.webp"
 						}
 						alt=""
 						className="w-32 sm:w-44"

@@ -17,8 +17,8 @@ const Navbar = ({ theme, setTheme }) => {
 				<img
 					src={
 						theme === "dark" ?
-							"./images/infinova-logo-dark.png"
-						:	"./images/infinova-logo.png"
+							"./images/infinova-logo-dark.webp"
+						:	"./images/infinova-logo.webp"
 					}
 					alt="nav-logo"
 					className="w-32 sm:w-40 cursor-pointer"
@@ -28,7 +28,7 @@ const Navbar = ({ theme, setTheme }) => {
 
 			{/* nav menu and sidebar section */}
 			<div
-				className={`text-gray-700/80 dark:text-white sm:text-sm ${!sideBarOpen ? "max-md:w-0 overflow-hidden" : "max-md:w-60 max-md:pl-10 z-50"} max-md:fixed top-0 bottom-0 right-0 max-md:min-h-screen max-md:h-full max-md:flex-col max-md:bg-primary dark:max-md:bg-teal-600 max-md:text-white max-md:pt-20 flex md:items-center gap-5 transition-all py-0.75`}>
+				className={`text-gray-700/80 dark:text-white sm:text-sm ${!sideBarOpen ? "max-md:w-0 overflow-hidden" : "max-md:w-60 max-md:pl-10 z-50"} max-md:fixed top-0 bottom-0 right-0 max-md:min-h-screen max-md:h-full max-md:flex-col max-md:bg-teal-500 dark:max-md:bg-teal-600 max-md:text-white max-md:pt-20 flex md:items-center gap-5 transition-all py-0.75`}>
 				{/* sidebar close/cross icon/btn */}
 				<XIcon
 					size={28}

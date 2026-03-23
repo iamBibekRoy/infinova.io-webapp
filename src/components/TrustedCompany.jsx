@@ -26,19 +26,19 @@ const TrustedCompany = () => {
 				viewport={{ once: true }}
 				className=" flex items-center justify-center flex-wrap gap-10 m-4 z-10">
 				<Image
-					src="./images/microsoft_logo.png"
+					src="./images/microsoft_logo.webp"
 					alt="microsoft_logo"
 				/>
 				<Image
-					src="./images/zoom_logo.png"
+					src="./images/zoom_logo.webp"
 					alt="zoom_logo"
 				/>
 				<Image
-					src="./images/rakuten_logo.png"
+					src="./images/rakuten_logo.webp"
 					alt="rakuten_logo"
 				/>
 				<Image
-					src="./images/coinbase_logo.png"
+					src="./images/coinbase_logo.webp"
 					alt="coinbase_logo"
 				/>
 				<Image

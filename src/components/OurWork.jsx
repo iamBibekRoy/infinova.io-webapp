@@ -19,7 +19,7 @@ const OurWork = () => {
 			badge: "Web Development",
 			title: "TechFlow - Innovative Solutions",
 			desc: "Implemented cutting-edge web development and digital marketing strategies for TechFlow.",
-			image: "../images/techflow-img.jpg ",
+			image: "../images/techflow-img.webp",
 		},
 		{
 			badge: "App Development",
