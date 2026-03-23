@@ -21,8 +21,8 @@ const Footer = ({ theme }) => {
 					<img
 						src={
 							theme === "dark" ?
-								"./src/assets/infinova-logo-dark.png"
-							:	"./src/assets/infinova-logo.png"
+								"./images/infinova-logo-dark.png"
+							:	"./images/infinova-logo.png"
 						}
 						alt=""
 						className="w-32 sm:w-44"
@@ -107,22 +107,22 @@ const Footer = ({ theme }) => {
 
 				<div className="flex items-center justify-between gap-4">
 					<img
-						src="../src/assets/facebook_icon.svg"
+						src="../images/facebook_icon.svg"
 						alt="facebook-icon"
 						className="cursor-pointer hover:brightness-50 dark:hover:brightness-150"
 					/>
 					<img
-						src="../src/assets/twitter_icon.svg"
+						src="../images/twitter_icon.svg"
 						alt="twitter-icon"
 						className="cursor-pointer hover:brightness-50 dark:hover:brightness-150"
 					/>
 					<img
-						src="../src/assets/instagram_icon.svg"
+						src="../images/instagram_icon.svg"
 						alt="instagram-icon"
 						className="cursor-pointer hover:brightness-50 dark:hover:brightness-150"
 					/>
 					<img
-						src="../src/assets/linkedin_icon.svg"
+						src="../images/linkedin_icon.svg"
 						alt="linkedin-icon"
 						className="cursor-pointer hover:brightness-50 dark:hover:brightness-150"
 					/>

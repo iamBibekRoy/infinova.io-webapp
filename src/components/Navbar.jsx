@@ -17,8 +17,8 @@ const Navbar = ({ theme, setTheme }) => {
 				<img
 					src={
 						theme === "dark" ?
-							"./src/assets/infinova-logo-dark.png"
-						:	"./src/assets/infinova-logo.png"
+							"./images/infinova-logo-dark.png"
+						:	"./images/infinova-logo.png"
 					}
 					alt="nav-logo"
 					className="w-32 sm:w-40 cursor-pointer"
