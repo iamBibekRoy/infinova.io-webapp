@@ -4,6 +4,11 @@ Infinova is a modern, responsive digital agency web application built to showcas
 
 ---
 
+## 🌐 Live Preview
+> https://infinova-io.vercel.app/
+
+---
+
 ## ✨ Features
 
 - ⚡ Fast and optimized with Vite
@@ -27,4 +32,3 @@ Infinova is a modern, responsive digital agency web application built to showcas
 
 ---
 
-## 📁 Project Structure
