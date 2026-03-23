@@ -54,13 +54,13 @@ const Hero = () => {
 				viewport={{ once: true }}
 				className="relative z-3">
 				<img
-					src="./images/hero-img.png"
+					src="./images/hero-img.webp"
 					alt="hero_img"
 					className="w-full max-w-6xl rounded-3xl"
 				/>
 
 				<img
-					src="./images/bg-gradient-1.png"
+					src="./images/bg-gradient-1.webp"
 					alt=""
 					className="absolute -top-40 -right-40 sm:-top-100 sm:-right-70 -z-5 blur-[2px] dark:blur-[6px] dark:brightness-80"
 				/>

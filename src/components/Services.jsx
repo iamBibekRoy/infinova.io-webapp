@@ -90,7 +90,7 @@ const Services = () => {
 			id="services"
 			className="relative flex flex-col items-center gap-7 px-4 sm:px-12 lg:px-24 xl:px-40 pt-30 text-gray-700 dark:text-white z-2">
 			<img
-				src="./images/bg-gradient-2.png"
+				src="./images/bg-gradient-2.webp"
 				alt=""
 				className="absolute -top-110 -left-70 -z-1 blur-xs dark:blur-3xl dark:brightness-40"
 			/>
