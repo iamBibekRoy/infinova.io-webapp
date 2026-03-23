@@ -27,7 +27,7 @@ const Footer = ({ theme }) => {
 						alt=""
 						className="w-32 sm:w-44"
 					/>
-					<p className="max-w-md">
+					<p className="max-w-md ">
 						Ready to elevate your brand? Partner with infinova,io
 						and take the first step towards transforming your
 						digital presence.

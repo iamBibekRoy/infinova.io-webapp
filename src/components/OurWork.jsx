@@ -54,6 +54,7 @@ const OurWork = () => {
 				desc="From concept to launch, explore the projects that define our passion for design, innovation, and performance."
 			/>
 
+			{/* our work cards section */}
 			<div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-5xl">
 				{(isOpen ? workData : workData.slice(0, 3)).map(
 					(work, index) => (
@@ -64,7 +65,7 @@ const OurWork = () => {
 							viewport={{ once: true }}
 							key={index}
 							className="relative mx-auto w-full max-w-sm pt-0 hover:scale-102 duration-500 transition-all cursor-pointer ring-0 bg-transparent">
-							<div className="absolute inset-0 aspect-3/2 " />
+							<div className="absolute inset-0 aspect-3/2" />
 							<img
 								src={work.image}
 								alt="Event cover"

@@ -60,7 +60,7 @@ const Navbar = ({ theme, setTheme }) => {
 			</div>
 			{/* nav menu and sidebar section */}
 
-			{/* nav buttons section */}
+			{/* nav btns section */}
 			<div className="flex items-center gap-2 sm:gap-4">
 				{/* dark/light mode toggle btn */}
 				<ThemeToggleBtn

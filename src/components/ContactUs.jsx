@@ -42,6 +42,7 @@ const ContactUs = () => {
 				desc="Let's work together"
 			/>
 
+			{/* contact form */}
 			<motion.form
 				initial={{ opacity: 0, y: 30 }}
 				whileInView={{ opacity: 1, y: 0 }}
