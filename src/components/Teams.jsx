@@ -7,42 +7,42 @@ const Teams = () => {
 		{
 			name: "Jose Ruiz",
 			title: "CEO & founder",
-			image: "../src/assets/teams/team-01.jpg",
+			image: "./images/teams/team-01.jpg",
 		},
 		{
 			name: "Robin Wright",
 			title: "Project Manager",
-			image: "../src/assets/teams/team-02.jpg",
+			image: "./images/teams/team-02.jpg",
 		},
 		{
 			name: "Jannie Barnett",
 			title: "Vice president",
-			image: "../src/assets/teams/team-03.jpg",
+			image: "./images/teams/team-03.jpg",
 		},
 		{
 			name: "Lonnie Elliot",
 			title: "SEO specialist",
-			image: "../src/assets/teams/team-04.jpg",
+			image: "./images/teams/team-04.jpg",
 		},
 		{
 			name: "Jamie Ferguson",
 			title: "Web developer",
-			image: "../src/assets/teams/team-05.jpg",
+			image: "./images/teams/team-05.jpg",
 		},
 		{
 			name: "Randall Hill",
 			title: "App developer",
-			image: "../src/assets/teams/team-06.jpg",
+			image: "./images/teams/team-06.jpg",
 		},
 		{
 			name: "Ian Holmes",
 			title: "Graphic designer",
-			image: "../src/assets/teams/team-07.jpg",
+			image: "./images/teams/team-07.jpg",
 		},
 		{
 			name: "Violet Burke",
 			title: "Social media strategist",
-			image: "../src/assets/teams/team-08.jpg",
+			image: "./images/teams/team-08.jpg",
 		},
 	];
 

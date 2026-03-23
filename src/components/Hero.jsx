@@ -14,7 +14,7 @@ const Hero = () => {
 				viewport={{ once: true }}
 				className="inline-flex items-center gap-2 border border-gray-300 p-1.5 pr-4 rounded-full">
 				<img
-					src="./src/assets/team-img.webp"
+					src="./images/team-img.webp"
 					alt="group_image"
 					className="w-30 h-7"
 				/>
@@ -54,13 +54,13 @@ const Hero = () => {
 				viewport={{ once: true }}
 				className="relative z-3">
 				<img
-					src="./src/assets/hero-img.png"
+					src="./images/hero-img.png"
 					alt="hero_img"
 					className="w-full max-w-6xl rounded-3xl"
 				/>
 
 				<img
-					src="./src/assets/bg-gradient-1.png"
+					src="./images/bg-gradient-1.png"
 					alt=""
 					className="absolute -top-40 -right-40 sm:-top-100 sm:-right-70 -z-5 blur-[2px] dark:blur-[6px] dark:brightness-80"
 				/>

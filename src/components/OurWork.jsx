@@ -13,31 +13,31 @@ const OurWork = () => {
 			badge: "Branding",
 			title: "EcoBrand - Green Initiative",
 			desc: "Crafted a fresh brand identity and a responsive e-commerce platform for EcoBrand.",
-			image: "../src/assets/ecobrand-img.webp",
+			image: "../images/ecobrand-img.webp",
 		},
 		{
 			badge: "Web Development",
 			title: "TechFlow - Innovative Solutions",
 			desc: "Implemented cutting-edge web development and digital marketing strategies for TechFlow.",
-			image: "../src/assets/techflow-img.jpg ",
+			image: "../images/techflow-img.jpg ",
 		},
 		{
 			badge: "App Development",
 			title: "UrbanFit - Fitness on the Go",
 			desc: "Developed a user-friendly mobile app for UrbanFit that empowers users to track their fitness journey.",
-			image: "../src/assets/fitness-app-img.webp",
+			image: "../images/fitness-app-img.webp",
 		},
 		{
 			badge: "Branding",
 			title: "TechAI - A Digital Transformation",
 			desc: "We elevated TechAI’s online presence through a seamless responsive website redesign.",
-			image: "../src/assets/techai-img.webp",
+			image: "../images/techai-img.webp",
 		},
 		{
 			badge: "Social Media Marketing",
 			title: "Social Media Marketing Campaign",
 			desc: "Executed an social media campaign involving a mix of influencer partnerships and user-generated content.",
-			image: "../src/assets/marketing-img.webp",
+			image: "../images/marketing-img.webp",
 		},
 	];
 
