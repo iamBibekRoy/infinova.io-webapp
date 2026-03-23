@@ -58,28 +58,34 @@ const OurWork = () => {
 			<div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-5xl">
 				{(isOpen ? workData : workData.slice(0, 3)).map(
 					(work, index) => (
-						<motion.Card
-							initial={{ opacity: 0, y: 30 }}
-							whileInView={{ opacity: 1, y: 0 }}
-							transition={{ duration: 0.5, delay: index * 0.2 }}
-							viewport={{ once: true }}
-							key={index}
-							className="relative mx-auto w-full max-w-sm pt-0 hover:scale-102 duration-500 transition-all cursor-pointer ring-0 bg-transparent">
-							<div className="absolute inset-0 aspect-3/2" />
-							<img
-								src={work.image}
-								alt="Event cover"
-								className="relative aspect-3/2 w-full object-cover rounded-xl mb-2"
-							/>
-							<CardHeader>
-								<Badge variant="secondary">{work.badge}</Badge>
+						<motion.div
+	initial={{ opacity: 0, y: 30 }}
+	whileInView={{ opacity: 1, y: 0 }}
+	transition={{ duration: 0.5, delay: index * 0.2 }}
+	viewport={{ once: true }}
+	key={index}
+	className="">
 
-								<CardTitle>{work.title}</CardTitle>
-								<CardDescription className="opacity-80 dark:opacity-100">
-									{work.desc}
-								</CardDescription>
-							</CardHeader>
-						</motion.Card>
+	<Card className="relative mx-auto w-full max-w-sm pt-0 hover:scale-102 duration-500 transition-all cursor-pointer ring-0 bg-transparent">
+		<div className="absolute inset-0 aspect-3/2" />
+		
+		<img
+			src={work.image}
+			alt="Event cover"
+			className="relative aspect-3/2 w-full object-cover rounded-xl mb-2"
+		/>
+
+		<CardHeader>
+			<Badge variant="secondary">{work.badge}</Badge>
+
+			<CardTitle>{work.title}</CardTitle>
+
+			<CardDescription className="opacity-80 dark:opacity-100">
+				{work.desc}
+			</CardDescription>
+		</CardHeader>
+	</Card>
+</motion.div>
 					),
 				)}
 			</div>
