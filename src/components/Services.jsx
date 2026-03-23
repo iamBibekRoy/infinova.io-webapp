@@ -100,6 +100,7 @@ const Services = () => {
 				desc="From strategy to execution, we craft digital solutions that move your business forward."
 			/>
 
+			{/* services card section */}
 			<div className="flex flex-col md:grid grid-cols-2">
 				{servicesData.map((service, index) => (
 					<ServiceCard

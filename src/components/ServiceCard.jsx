@@ -9,7 +9,7 @@ const ServiceCard = ({ service, index }) => {
 			whileInView={{ opacity: 1, y: 0 }}
 			transition={{ duration: 0.2, delay: index * 0.2 }}
 			viewport={{ once: true }}
-			className="">
+			className="cursor-default">
 			<MagicCard className="max-w-lg m-2 sm:m-4 rounded-xl shadow-2xl shadow-gray-100 dark:shadow-white/10">
 				<div className="flex items-center gap-10 p-8 transition-all bg-white dark:bg-gray-900 rounded-xl">
 					<div className="bg-gray-100 dark:bg-gray-700 rounded-full">

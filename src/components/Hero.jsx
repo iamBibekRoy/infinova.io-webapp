@@ -21,7 +21,7 @@ const Hero = () => {
 				<p className="text-xs font-medium">Trusted by 11k+ people</p>
 			</motion.div>
 
-			{/* page heading */}
+			{/* page header */}
 			<motion.h1
 				initial={{ opacity: 0, y: 40 }}
 				whileInView={{ opacity: 1, y: 0 }}

@@ -18,6 +18,7 @@ const TrustedCompany = () => {
 				Trusted by Leading Companies
 			</motion.h3>
 
+			{/* compnay logos */}
 			<motion.div
 				initial="hidden"
 				whileInView="visible"
